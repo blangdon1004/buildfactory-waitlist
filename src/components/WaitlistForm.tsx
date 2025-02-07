@@ -19,7 +19,7 @@ const WaitlistForm = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          access_key: "YOUR_WEB3FORMS_ACCESS_KEY",
+          access_key: "de2ea291-7c9d-413f-8cfe-18a2f3dc6f6d",
           from_name: "BuildFactory Waitlist",
           subject: "New Waitlist Signup",
           to: "blangdon@buildfactory.io",
