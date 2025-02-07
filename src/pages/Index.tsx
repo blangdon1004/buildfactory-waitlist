@@ -10,11 +10,11 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-center px-4">
         <div className="absolute inset-0 -z-10">
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
           <img
-            src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
-            alt="Hero Background"
-            className="w-full h-full object-cover"
+            src="/lovable-uploads/03cfef6b-ae75-41ac-a15c-bc79147494de.png"
+            alt="Manufacturing Facility"
+            className="w-full h-full object-cover object-center"
           />
         </div>
         
@@ -25,10 +25,10 @@ const Index = () => {
             className="h-16 md:h-20 mx-auto mb-6"
           />
           <div className="space-y-2">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white">
               The Future of Off-Site Construction
             </h1>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-gray-200">
               Join the world's first truly open, AI-driven construction marketplace
             </p>
           </div>
