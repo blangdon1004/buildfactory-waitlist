@@ -20,7 +20,7 @@ const Index = () => {
         
         <div className="animate-fadeIn space-y-8 max-w-4xl mx-auto">
           <img
-            src="/buildfactory-logo.png"
+            src="/lovable-uploads/buildfactory-logo.png"
             alt="BuildFactory Logo"
             className="h-16 md:h-20 mx-auto mb-6"
           />
