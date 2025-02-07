@@ -37,7 +37,7 @@ const Index = () => {
             <WaitlistForm />
             <Button variant="outline" className="glass">
               <a
-                href="https://discord.gg/buildfactory"
+                href="https://discord.gg/wMTm83kS"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
