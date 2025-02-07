@@ -19,11 +19,6 @@ const Index = () => {
         </div>
         
         <div className="animate-fadeIn space-y-8 max-w-4xl mx-auto">
-          <img
-            src="/lovable-uploads/buildfactory-logo.png"
-            alt="BuildFactory Logo"
-            className="h-16 md:h-20 mx-auto mb-6"
-          />
           <div className="space-y-2">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white">
               The Future of Off-Site Construction
@@ -94,6 +89,17 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="py-8 border-t">
+        <div className="container flex justify-center">
+          <img
+            src="/lovable-uploads/buildfactory-logo.png"
+            alt="BuildFactory Logo"
+            className="h-8"
+          />
+        </div>
+      </footer>
     </div>
   );
 };
