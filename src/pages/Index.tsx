@@ -93,11 +93,6 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 border-t">
         <div className="container flex justify-center">
-          <img
-            src="/lovable-uploads/e24861be-8b47-492e-8a03-dd9df5c42f26.png"
-            alt="BuildFactory Logo"
-            className="h-12"
-          />
         </div>
       </footer>
     </div>
