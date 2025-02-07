@@ -29,7 +29,7 @@ const Index = () => {
               The Future of Off-Site Construction
             </h1>
             <p className="text-xl text-gray-200">
-              Join the world's first truly open, AI-driven construction marketplace
+              Buy from the world's first truly open, AI-driven construction marketplace
             </p>
           </div>
           
