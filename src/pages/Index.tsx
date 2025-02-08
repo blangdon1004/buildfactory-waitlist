@@ -79,7 +79,7 @@ const Index = () => {
           <FeatureCard
             icon={Upload}
             title="Custom Quotes"
-            description="Upload your specs for AI-generated quotes"
+            description="Upload your .DWG, or .RVT, and your specifications for a quote"
           />
           <FeatureCard
             icon={Building}
