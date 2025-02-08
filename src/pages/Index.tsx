@@ -7,17 +7,19 @@ import FeatureCard from "@/components/FeatureCard";
 const Index = () => {
   return (
     <div className="min-h-screen">
-      {/* Logo */}
-      <div className="absolute top-4 left-4 z-10">
-        <img 
-          src="/lovable-uploads/03cfef6b-ae75-41ac-a15c-bc79147494de.png" 
-          alt="BuildFactory Logo" 
-          className="h-12 w-auto"
-        />
-      </div>
+      {/* Header with Logo */}
+      <header className="fixed top-0 left-0 right-0 h-16 bg-white shadow-sm z-50">
+        <div className="container h-full flex items-center">
+          <img 
+            src="/lovable-uploads/03cfef6b-ae75-41ac-a15c-bc79147494de.png" 
+            alt="BuildFactory Logo" 
+            className="h-8 w-auto"
+          />
+        </div>
+      </header>
 
       {/* Hero Section */}
-      <section className="relative h-[90vh] flex items-center justify-center text-center px-4">
+      <section className="relative h-[90vh] flex items-center justify-center text-center px-4 mt-16">
         <div className="absolute inset-0 -z-10">
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
           <img
