@@ -66,7 +66,7 @@ const AboutUs = () => {
               This isn't just a marketplace—it's a new model for construction. One that ensures fabricators stay productive and profitable while giving contractors the tools to build faster, better, and at lower cost.
             </p>
             <p className="font-semibold mt-4">
-              Join us in shaping the future of fabrication.
+              Join us in shaping the future of construction.
             </p>
 
             <div className="text-left mt-16 pl-8">
