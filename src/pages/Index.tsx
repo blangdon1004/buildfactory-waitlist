@@ -30,7 +30,7 @@ const Index = () => {
           
           <div className="flex flex-col items-center gap-4">
             <WaitlistForm />
-            <Button variant="secondary" className="bg-purple-600 hover:bg-purple-700 text-white">
+            <Button variant="secondary" className="bg-blue-600 hover:bg-blue-700 text-white">
               <a
                 href="https://discord.gg/wMTm83kS"
                 target="_blank"
