@@ -41,7 +41,7 @@ const WaitlistForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex w-full max-w-sm gap-2">
+    <form onSubmit={handleSubmit} className="flex flex-col w-full max-w-sm gap-2">
       <Input
         type="email"
         placeholder="Enter your email"
@@ -50,7 +50,7 @@ const WaitlistForm = () => {
         required
         className="glass"
       />
-      <Button type="submit" disabled={loading}>
+      <Button type="submit" disabled={loading} className="bg-blue-600 hover:bg-blue-700">
         {loading ? "Joining..." : "Join Waitlist"}
       </Button>
     </form>
