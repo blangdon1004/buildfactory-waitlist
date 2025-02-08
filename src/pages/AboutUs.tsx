@@ -71,7 +71,7 @@ const AboutUs = () => {
 
             <div className="text-left mt-16 pl-8">
               <img
-                src="/lovable-uploads/03cfef6b-ae75-41ac-a15c-bc79147494de.png"
+                src="/lovable-uploads/90646165-5cfb-47bc-bf6f-f54caeeaa4c3.png"
                 alt="Britton Langdon Signature"
                 className="h-24 w-auto mb-1"
               />
