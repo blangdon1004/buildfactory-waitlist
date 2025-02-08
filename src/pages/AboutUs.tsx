@@ -69,9 +69,9 @@ const AboutUs = () => {
               Join us in shaping the future of fabrication.
             </p>
 
-            <div className="text-center mt-16">
-              <p className="font-['Dancing_Script'] text-4xl mb-1">Britton Langdon</p>
-              <p className="text-gray-600 text-sm">Founder & CEO</p>
+            <div className="text-left mt-16 pl-8">
+              <p className="font-['Dancing_Script'] text-5xl mb-1 transform -rotate-3 text-gray-800">Britton Langdon</p>
+              <p className="text-gray-600 text-sm ml-4">Founder & CEO</p>
             </div>
           </div>
         </div>
