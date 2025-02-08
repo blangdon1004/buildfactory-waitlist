@@ -1,3 +1,4 @@
+
 import { Building } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WaitlistForm from "@/components/WaitlistForm";
@@ -24,8 +25,11 @@ const AboutUs = () => {
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-center">
             <h1 className="text-4xl font-bold mb-6">Our Story</h1>
+            <p className="text-lg text-gray-600 mb-2">
+              A solution born out of fab shops. Contributed to by far too many to count.
+            </p>
             <p className="text-lg text-gray-600 mb-8">
-              A solution born out of fab shops. Contributed to by far too many to count. The marketplace is for the industry, by the industry.
+              The marketplace is for the industry, by the industry.
             </p>
             <div className="flex flex-col items-center gap-4 mb-12">
               <WaitlistForm />
