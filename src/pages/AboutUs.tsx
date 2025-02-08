@@ -1,11 +1,10 @@
-
 import { Building } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WaitlistForm from "@/components/WaitlistForm";
 
 const AboutUs = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen flex flex-col">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 h-16 bg-white shadow-sm z-50">
         <div className="container h-full flex items-center justify-between">
@@ -21,7 +20,7 @@ const AboutUs = () => {
       </header>
 
       {/* Main Content */}
-      <div className="container pt-32 pb-16">
+      <div className="container pt-32 pb-16 flex-grow">
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-center">
             <h1 className="text-4xl font-bold mb-6">Our Story</h1>
@@ -98,6 +97,37 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white">
+        <div className="container py-12">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Company</h3>
+              <ul className="space-y-2">
+                <li><a href="/about" className="hover:text-gray-300">About Us</a></li>
+                <li><a href="/privacy" className="hover:text-gray-300">Privacy Policy</a></li>
+                <li><a href="/terms" className="hover:text-gray-300">Terms of Service</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-4">Contact</h3>
+              <ul className="space-y-2">
+                <li>Email: info@buildfactory.io</li>
+                <li>Iowa, United States</li>
+              </ul>
+            </div>
+            <div className="md:col-span-2">
+              <h3 className="text-lg font-semibold mb-4">Subscribe to Our Newsletter</h3>
+              <p className="mb-4">Stay updated with our latest news and updates.</p>
+              <WaitlistForm />
+            </div>
+          </div>
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
+            <p>© {new Date().getFullYear()} BuildFactory. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
