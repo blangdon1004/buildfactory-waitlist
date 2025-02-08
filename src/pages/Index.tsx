@@ -1,3 +1,4 @@
+
 import { Factory, Upload, ShoppingCart, Building } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WaitlistForm from "@/components/WaitlistForm";
@@ -78,7 +79,7 @@ const Index = () => {
           <FeatureCard
             icon={Upload}
             title="Custom Quotes"
-            description="Upload your specs for instant AI-generated quotes"
+            description="Upload your specs for AI-generated quotes"
           />
           <FeatureCard
             icon={Building}
