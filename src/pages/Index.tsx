@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center text-center px-4">
+      <section className="relative h-[90vh] flex items-center justify-center text-center px-4">
         <div className="absolute inset-0 -z-10">
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
           <img
@@ -45,7 +45,7 @@ const Index = () => {
       </section>
 
       {/* Features Section */}
-      <section className="section-padding container">
+      <section className="py-12 md:py-16 container">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Why BuildFactory?</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
