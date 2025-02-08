@@ -1,5 +1,6 @@
 
 import { Building } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const AboutUs = () => {
   return (
@@ -26,6 +27,14 @@ const AboutUs = () => {
             <p className="text-lg text-gray-600 mb-8">
               A solution born out of fab shops. Contributed to by far too many to count. The marketplace is for the industry, by the industry.
             </p>
+            <div className="flex justify-center mb-12">
+              <Button 
+                className="text-lg px-8 py-6 h-auto"
+                onClick={() => window.location.href = '/'}
+              >
+                Join the Waitlist
+              </Button>
+            </div>
           </div>
 
           <div className="space-y-6 text-gray-600">
@@ -76,6 +85,16 @@ const AboutUs = () => {
                 className="h-24 w-auto mb-1"
               />
               <p className="text-gray-600 text-sm ml-4">Founder & CEO</p>
+            </div>
+
+            <div className="flex justify-center mt-12">
+              <Button 
+                variant="outline"
+                className="text-lg px-8 py-6 h-auto"
+                onClick={() => window.open('https://discord.com/channels/1119885301872070706/1280461670979993613', '_blank')}
+              >
+                Join the Discord Community
+              </Button>
             </div>
           </div>
         </div>
