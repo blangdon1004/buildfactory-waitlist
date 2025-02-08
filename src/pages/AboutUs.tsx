@@ -1,4 +1,3 @@
-
 import { Building } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WaitlistForm from "@/components/WaitlistForm";
@@ -30,12 +29,6 @@ const AboutUs = () => {
             </p>
             <div className="flex flex-col items-center gap-4 mb-12">
               <WaitlistForm />
-              <Button 
-                className="text-lg h-10 px-8 bg-blue-600 hover:bg-blue-700 text-white"
-                onClick={() => window.location.href = '/'}
-              >
-                Join the Waitlist
-              </Button>
             </div>
           </div>
 
