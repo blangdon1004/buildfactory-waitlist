@@ -68,11 +68,6 @@ const AboutUs = () => {
             <p className="font-semibold mt-4">
               Join us in shaping the future of fabrication.
             </p>
-
-            <h2 className="text-2xl font-semibold text-gray-900">Who are we?</h2>
-            <p>
-              Building a team of passionate construction tech professionals with deep experience in the trades.
-            </p>
           </div>
         </div>
       </div>
