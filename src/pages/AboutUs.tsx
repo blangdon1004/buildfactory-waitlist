@@ -70,7 +70,11 @@ const AboutUs = () => {
             </p>
 
             <div className="text-left mt-16 pl-8">
-              <p className="font-['Dancing_Script'] text-5xl mb-1 transform -rotate-3 text-gray-800">Britton Langdon</p>
+              <img
+                src="/lovable-uploads/03cfef6b-ae75-41ac-a15c-bc79147494de.png"
+                alt="Britton Langdon Signature"
+                className="h-24 w-auto mb-1"
+              />
               <p className="text-gray-600 text-sm ml-4">Founder & CEO</p>
             </div>
           </div>
