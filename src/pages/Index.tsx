@@ -10,7 +10,7 @@ const Index = () => {
       {/* Logo */}
       <div className="absolute top-4 left-4 z-10">
         <img 
-          src="/buildfactory-logo.png" 
+          src="/lovable-uploads/03cfef6b-ae75-41ac-a15c-bc79147494de.png" 
           alt="BuildFactory Logo" 
           className="h-12 w-auto"
         />
