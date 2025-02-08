@@ -29,7 +29,7 @@ const AboutUs = () => {
             </p>
             <div className="flex justify-center mb-12">
               <Button 
-                className="text-lg px-8 py-6 h-auto bg-blue-600 hover:bg-blue-700 text-white"
+                className="text-lg h-10 px-8 bg-blue-600 hover:bg-blue-700 text-white"
                 onClick={() => window.location.href = '/'}
               >
                 Join the Waitlist
@@ -90,7 +90,7 @@ const AboutUs = () => {
             <div className="flex justify-center mt-12">
               <Button 
                 variant="secondary"
-                className="text-lg px-8 py-6 h-auto bg-blue-600 hover:bg-blue-700 text-white"
+                className="text-lg h-10 px-8 bg-blue-600 hover:bg-blue-700 text-white"
                 onClick={() => window.open('https://discord.com/channels/1119885301872070706/1280461670979993613', '_blank')}
               >
                 Join the Discord Community
