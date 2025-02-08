@@ -22,7 +22,7 @@ const AboutUs = () => {
       <div className="container pt-32 pb-16">
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-center">
-            <h1 className="text-4xl font-bold mb-6">About BuildFactory</h1>
+            <h1 className="text-4xl font-bold mb-6">Our Story</h1>
             <p className="text-lg text-gray-600 mb-8">
               A solution born out of fab shops. Contributed to by far too many to count. The marketplace is for the industry, by the industry.
             </p>
