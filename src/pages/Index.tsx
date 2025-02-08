@@ -1,3 +1,4 @@
+
 import { Factory, Upload, ShoppingCart, Building } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WaitlistForm from "@/components/WaitlistForm";
@@ -12,7 +13,7 @@ const Index = () => {
           <img 
             src="/lovable-uploads/2ce219f4-ccff-4e6b-ad09-3454e4dff9b7.png" 
             alt="BuildFactory Logo" 
-            className="h-8 w-auto"
+            className="h-24 w-auto"
           />
         </div>
       </header>
