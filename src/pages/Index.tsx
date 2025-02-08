@@ -7,6 +7,15 @@ import FeatureCard from "@/components/FeatureCard";
 const Index = () => {
   return (
     <div className="min-h-screen">
+      {/* Logo */}
+      <div className="absolute top-4 left-4 z-10">
+        <img 
+          src="/buildfactory-logo.png" 
+          alt="BuildFactory Logo" 
+          className="h-12 w-auto"
+        />
+      </div>
+
       {/* Hero Section */}
       <section className="relative h-[90vh] flex items-center justify-center text-center px-4">
         <div className="absolute inset-0 -z-10">
