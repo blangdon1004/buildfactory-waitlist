@@ -1,6 +1,7 @@
 
 import { Building } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import WaitlistForm from "@/components/WaitlistForm";
 
 const AboutUs = () => {
   return (
@@ -27,7 +28,8 @@ const AboutUs = () => {
             <p className="text-lg text-gray-600 mb-8">
               A solution born out of fab shops. Contributed to by far too many to count. The marketplace is for the industry, by the industry.
             </p>
-            <div className="flex justify-center mb-12">
+            <div className="flex flex-col items-center gap-4 mb-12">
+              <WaitlistForm />
               <Button 
                 className="text-lg h-10 px-8 bg-blue-600 hover:bg-blue-700 text-white"
                 onClick={() => window.location.href = '/'}
