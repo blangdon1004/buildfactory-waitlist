@@ -1,5 +1,5 @@
 
-import { Factory, Upload, ShoppingCart, Building } from "lucide-react";
+import { Users, Upload, ShoppingCart, Building } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WaitlistForm from "@/components/WaitlistForm";
 import FeatureCard from "@/components/FeatureCard";
@@ -67,9 +67,9 @@ const Index = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <FeatureCard
-            icon={Factory}
-            title="Premium Fabricators"
-            description="Access top-tier fabricators and their proven product catalogs"
+            icon={Users}
+            title="Premium Suppliers"
+            description="Access top-tier BIM teams and Fabricators"
           />
           <FeatureCard
             icon={ShoppingCart}
