@@ -278,3 +278,5 @@ const Privacy = () => {
     </div>
   );
 };
+
+export default Privacy;
