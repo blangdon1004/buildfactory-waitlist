@@ -24,7 +24,7 @@ const Index = () => {
         <div className="absolute inset-0 -z-10">
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
           <img
-            src="/lovable-uploads/03cfef6b-ae75-41ac-a15c-bc79147494de.png"
+            src="/lovable-uploads/66031445-9633-4384-b66b-58bc9e0f8ae5.png"
             alt="Manufacturing Facility"
             className="w-full h-full object-cover object-center"
           />
@@ -33,7 +33,7 @@ const Index = () => {
         <div className="animate-fadeIn space-y-8 max-w-4xl mx-auto">
           <div className="space-y-2">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white">
-              The Future of Off-Site Construction
+              The BuildFactory Marketplace
             </h1>
             <p className="text-xl text-gray-200">
               Buy from the world's first truly open, AI-driven construction marketplace
