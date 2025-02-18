@@ -84,7 +84,7 @@ const Index = () => {
           <FeatureCard
             icon={Hammer}
             title="Premium Hardware"
-            description="Buy & Sell New & Used Off-Site Hardware and Machinery"
+            description="Buy & Sell New & Used Off-Site Hardware, Tools, and Machinery"
           />
         </div>
       </section>
