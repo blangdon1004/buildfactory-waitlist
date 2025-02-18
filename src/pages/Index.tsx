@@ -1,5 +1,5 @@
 
-import { Users, Upload, ShoppingCart, Building } from "lucide-react";
+import { Users, Upload, ShoppingCart, Building, Hammer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WaitlistForm from "@/components/WaitlistForm";
 import FeatureCard from "@/components/FeatureCard";
@@ -82,9 +82,9 @@ const Index = () => {
             description="Upload your .DWG, or .RVT, and your specifications for a quote"
           />
           <FeatureCard
-            icon={Building}
-            title="Quality Assured"
-            description="Every product meets stringent quality standards"
+            icon={Hammer}
+            title="Premium Hardware"
+            description="Buy & Sell New & Used Off-Site Hardware and Machinery"
           />
         </div>
       </section>
