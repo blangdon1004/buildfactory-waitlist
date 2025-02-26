@@ -17,6 +17,15 @@ const Index = () => {
           />
           <a href="/about" className="text-gray-600 hover:text-gray-900">About Us</a>
         </div>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LM0NLRJBDK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LM0NLRJBDK');
+</script>
       </header>
 
       {/* Hero Section */}
