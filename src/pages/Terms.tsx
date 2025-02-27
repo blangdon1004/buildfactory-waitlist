@@ -6,7 +6,6 @@ const Terms = () => {
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 h-16 bg-white shadow-sm z-50">
-        <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LM0NLRJBDK"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
