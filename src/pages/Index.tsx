@@ -40,7 +40,7 @@ const Index = () => {
           />
         </div>
         
-        <div className="animate-fadeIn space-y-8 max-w-4xl mx-auto">
+        <div className="space-y-8 max-w-4xl mx-auto opacity-100 transition-opacity duration-500">
           <div className="space-y-2">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white">
               The BuildFactory Marketplace
