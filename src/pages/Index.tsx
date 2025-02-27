@@ -1,5 +1,5 @@
 
-import { Users, Upload, ShoppingCart, Building, Hammer, Linkedin } from "lucide-react";
+import { Users, Upload, ShoppingCart, Building, Hammer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WaitlistForm from "@/components/WaitlistForm";
 import FeatureCard from "@/components/FeatureCard";
@@ -127,7 +127,11 @@ const Index = () => {
               className="hover:text-foreground transition-colors flex items-center"
               aria-label="LinkedIn"
             >
-              <Linkedin size={16} className="mr-1" />
+              <img 
+                src="/lovable-uploads/f232cba2-e0b8-45cc-a25b-ae2bcd58b40c.png" 
+                alt="LinkedIn" 
+                className="w-5 h-5"
+              />
               <span className="sr-only">LinkedIn</span>
             </a>
           </div>
