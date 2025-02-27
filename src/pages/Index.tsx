@@ -1,5 +1,5 @@
 
-import { Users, Upload, ShoppingCart, Building } from "lucide-react";
+import { Users, Upload, ShoppingCart, Building, Hammer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WaitlistForm from "@/components/WaitlistForm";
 import FeatureCard from "@/components/FeatureCard";
@@ -42,7 +42,7 @@ const Index = () => {
         <div className="animate-fadeIn space-y-8 max-w-4xl mx-auto">
           <div className="space-y-2">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white">
-              The Future of Off-Site Construction
+              The BuildFactory Marketplace
             </h1>
             <p className="text-xl text-gray-200">
               Buy from the world's first truly open, AI-driven construction marketplace
@@ -91,9 +91,9 @@ const Index = () => {
             description="Upload your .DWG, or .RVT, and your specifications for a quote"
           />
           <FeatureCard
-            icon={Building}
-            title="Quality Assured"
-            description="Every product meets stringent quality standards"
+            icon={Hammer}
+            title="Premium Hardware"
+            description="Buy & Sell New & Used Off-Site Hardware, Tools, and Machinery"
           />
         </div>
       </section>
