@@ -23,7 +23,9 @@ const Index = () => {
             alt="BuildFactory Logo" 
             className="h-24 w-auto"
           />
-          <a href="/about" className="text-gray-600 hover:text-gray-900">About Us</a>
+          <div className="flex items-center gap-6">
+            <a href="/about" className="text-gray-600 hover:text-gray-900">About Us</a>
+          </div>
         </div>
       </header>
 
@@ -124,6 +126,21 @@ const Index = () => {
             <span className="hidden md:inline">•</span>
             <a href="/terms" className="hover:text-foreground transition-colors">
               Terms of Service
+            </a>
+            <span className="hidden md:inline">•</span>
+            <a 
+              href="https://www.linkedin.com/company/buildfactorymarketplace/about/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-foreground transition-colors flex items-center"
+              aria-label="LinkedIn"
+            >
+              <img 
+                src="/lovable-uploads/f232cba2-e0b8-45cc-a25b-ae2bcd58b40c.png" 
+                alt="LinkedIn" 
+                className="w-5 h-5"
+              />
+              <span className="sr-only">LinkedIn</span>
             </a>
           </div>
         </div>
