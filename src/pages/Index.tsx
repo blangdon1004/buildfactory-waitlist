@@ -92,7 +92,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-muted">
+      <section className="py-12 md:py-16 bg-muted">
         <div className="container text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Construction Process?</h2>
           <div className="flex flex-col items-center gap-4">
