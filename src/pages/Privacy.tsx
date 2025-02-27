@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Privacy = () => {
@@ -114,7 +115,7 @@ const Privacy = () => {
               <li className="mb-2">Legitimate interest: (where required by applicable law) To measure and analyze the effectiveness of the advertising we serve you.</li>
               <li className="mb-2">Legitimate interest: To perform our obligations that arise out of the arrangement we are about to enter or have entered with you.</li>
               <li className="mb-2">Legitimate interest: (where our contract is with your employer) Contract (where you have contracted for the Platform directly) To enforce our Terms, including collecting payment.</li>
-              <li className="mb-2">Legitimate interest: (where our contract is with your employer) Contract (where you have contracted for the Platform directly) To perform necessary “know your customer” and similar checks.</li>
+              <li className="mb-2">Legitimate interest: (where our contract is with your employer) Contract (where you have contracted for the Platform directly) To perform necessary "know your customer" and similar checks.</li>
               <li className="mb-2">Legal obligation: To comply with a legal or regulatory obligation.</li>
             </ul>
 
@@ -140,7 +141,7 @@ const Privacy = () => {
 
             <h2 className="text-2xl font-bold mt-8 mb-4">YOUR RIGHTS IN RELATION TO YOUR PERSONAL DATA</h2>
             <p className="mb-6">
-              Depending on the jurisdiction you are located in, you may have certain rights in relation to your personal data. For example, if you are located in the European Union (“EU”) or United Kingdom (“UK”) you may have the following rights:
+              Depending on the jurisdiction you are located in, you may have certain rights in relation to your personal data. For example, if you are located in the European Union ("EU") or United Kingdom ("UK") you may have the following rights:
             </p>
             <ul className="list-disc pl-6 mb-6">
               <li className="mb-2">request access to your personal data</li>
@@ -152,12 +153,12 @@ const Privacy = () => {
             </ul>
 
             <p className="mb-6">
-              You may also have the right to complain about our processing of your personal data to an appropriate supervisory authority such as the Information Commissioner’s Office in the UK.
+              You may also have the right to complain about our processing of your personal data to an appropriate supervisory authority such as the Information Commissioner's Office in the UK.
             </p>
 
             <h2 className="text-2xl font-bold mt-8 mb-4">INTERNATIONAL TRANSFER OF PERSONAL DATA</h2>
             <p className="mb-6">
-              As a part of your use of the Platform, the information and personal data you provide to us may be processed in countries other than the country in which you are located. When we collect your personal data, we generally do so from the United States of America (“USA”) (where BuildFactory is established).
+              As a part of your use of the Platform, the information and personal data you provide to us may be processed in countries other than the country in which you are located. When we collect your personal data, we generally do so from the United States of America ("USA") (where BuildFactory is established).
             </p>
 
             <p className="mb-6">
@@ -170,7 +171,7 @@ const Privacy = () => {
 
             <h2 className="text-2xl font-bold mt-8 mb-4">THIRD PARTY LINKS AND USER EXPERIENCE IMPROVEMENT SERVICES</h2>
             <p className="mb-6">
-              The Platform may, from time to time, contain services provided by or links to and from the websites of our partner networks, advertisers and affiliates (“Third Party Services”). Please note that the Third Party Services that may be accessible through our Services have their own privacy policies. We do not accept any responsibility or liability for the policies or for any personal data that may be collected through the Third Party Services. Please check their policies before you submit any personal data to such websites or use their services.
+              The Platform may, from time to time, contain services provided by or links to and from the websites of our partner networks, advertisers and affiliates ("Third Party Services"). Please note that the Third Party Services that may be accessible through our Services have their own privacy policies. We do not accept any responsibility or liability for the policies or for any personal data that may be collected through the Third Party Services. Please check their policies before you submit any personal data to such websites or use their services.
             </p>
 
             <p className="mb-6">
@@ -186,7 +187,7 @@ const Privacy = () => {
             </p>
 
             <p className="mb-6">
-              The place of processing information depends on each third-party service provider and you may wish to check the privacy policy of each of the service providers to identify the data shared and its purpose. You will also be subject to a third party’s privacy policy if you opt in to receive communications from third parties. We will not be responsible for the privacy standards and practices of third parties.
+              The place of processing information depends on each third-party service provider and you may wish to check the privacy policy of each of the service providers to identify the data shared and its purpose. You will also be subject to a third party's privacy policy if you opt in to receive communications from third parties. We will not be responsible for the privacy standards and practices of third parties.
             </p>
 
             <h2 className="text-2xl font-bold mt-8 mb-4">COOKIES</h2>
@@ -203,7 +204,7 @@ const Privacy = () => {
             </p>
 
             <p className="mb-6">
-              You can control what cookies are placed by the Platform via the “Cookie Banner” that you are presented with when you first visit the Platform. You can also update your preferences at any time by clicking on the “Cookie Settings” icon in the bottom right corner of the Platform’s home page. Most web browsers and devices can also be set to notify when you receive a cookie or prevent cookies from being sent. If you do prevent cookies from being sent, it may limit the functionality that we can provide when you visit the Platform or try to access the Platform.
+              You can control what cookies are placed by the Platform via the "Cookie Banner" that you are presented with when you first visit the Platform. You can also update your preferences at any time by clicking on the "Cookie Settings" icon in the bottom right corner of the Platform's home page. Most web browsers and devices can also be set to notify when you receive a cookie or prevent cookies from being sent. If you do prevent cookies from being sent, it may limit the functionality that we can provide when you visit the Platform or try to access the Platform.
             </p>
 
             <h2 className="text-2xl font-bold mt-8 mb-4">DATA SECURITY</h2>
@@ -241,3 +242,42 @@ const Privacy = () => {
             <p className="mb-6">
               The terms of this Policy may change and if they do, these changes will be posted on this page and, where appropriate, may be notified to you by email. The new Policy may be displayed on-screen and you may be required to read and accept the changes to continue your use of the Platform.
             </p>
+
+            <h2 className="text-2xl font-bold mt-8 mb-4">CONTACT US</h2>
+            <p className="mb-6">
+              You may contact us at <a href="mailto:info@buildfactory.io" className="text-blue-600 hover:text-blue-800">info@buildfactory.io</a> with any enquiry relating to this Policy, including where you would like more information about any of the topics discussed in this Policy, or if you have an enquiry relating to your personal data.
+            </p>
+
+            <div className="bg-gray-50 p-6 rounded-lg mt-8">
+              <h3 className="text-xl font-semibold mb-4">Office Address</h3>
+              <p>1111B S Governors Ave STE 26649</p>
+              <p>Dover, DE 19904</p>
+              <p className="mt-4">Email: <a href="mailto:support@buildfactory.io" className="text-blue-600 hover:text-blue-800">support@buildfactory.io</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      {/* Footer */}
+      <footer className="py-8 border-t">
+        <div className="container">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4 text-sm text-muted-foreground">
+            <a href="/about" className="hover:text-foreground transition-colors">
+              About Us
+            </a>
+            <span className="hidden md:inline">•</span>
+            <a href="/privacy" className="hover:text-foreground transition-colors">
+              Privacy Policy
+            </a>
+            <span className="hidden md:inline">•</span>
+            <a href="/terms" className="hover:text-foreground transition-colors">
+              Terms of Service
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default Privacy;
