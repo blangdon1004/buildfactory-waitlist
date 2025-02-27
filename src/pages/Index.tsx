@@ -1,5 +1,5 @@
 
-import { Users, Upload, ShoppingCart, Building, Hammer } from "lucide-react";
+import { Users, Upload, ShoppingCart, Building, Hammer, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WaitlistForm from "@/components/WaitlistForm";
 import FeatureCard from "@/components/FeatureCard";
@@ -17,14 +17,6 @@ const Index = () => {
           />
           <div className="flex items-center gap-6">
             <a href="/about" className="text-gray-600 hover:text-gray-900">About Us</a>
-            <a 
-              href="https://www.linkedin.com/company/buildfactorymarketplace/about/"
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900"
-            >
-              LinkedIn
-            </a>
           </div>
         </div>
       </header>
@@ -132,9 +124,11 @@ const Index = () => {
               href="https://www.linkedin.com/company/buildfactorymarketplace/about/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-foreground transition-colors"
+              className="hover:text-foreground transition-colors flex items-center"
+              aria-label="LinkedIn"
             >
-              LinkedIn
+              <Linkedin size={16} className="mr-1" />
+              <span className="sr-only">LinkedIn</span>
             </a>
           </div>
         </div>
