@@ -9,14 +9,6 @@ const Index = () => {
     <div className="min-h-screen">
       {/* Header with Logo */}
       <header className="fixed top-0 left-0 right-0 h-16 bg-white shadow-sm z-50">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LM0NLRJBDK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LM0NLRJBDK');
-</script>
         <div className="container h-full flex items-center justify-between">
           <img 
             src="/lovable-uploads/2ce219f4-ccff-4e6b-ad09-3454e4dff9b7.png" 
