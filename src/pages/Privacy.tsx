@@ -5,14 +5,6 @@ const Privacy = () => {
     <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 h-16 bg-white shadow-sm z-50">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LM0NLRJBDK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LM0NLRJBDK');
-</script>
         <div className="container h-full flex items-center justify-between">
           <a href="/">
             <img 
@@ -44,7 +36,7 @@ const Privacy = () => {
             </p>
 
             <p className="mb-6">
-              Capitalized words in the Policy that are not defined in the Policy shall have the meaning given to them in the Terms and Conditions (“Terms”), available at https://buildfactory.io/terms. Please read this Policy in conjunction with the Terms.
+              Capitalized words in the Policy that are not defined in the Policy shall have the meaning given to them in the Terms and Conditions ("Terms"), available at https://buildfactory.io/terms. Please read this Policy in conjunction with the Terms.
             </p>
 
             <h2 className="text-2xl font-bold mt-8 mb-4">THE DATA WE COLLECT ABOUT YOU</h2>
@@ -249,42 +241,3 @@ const Privacy = () => {
             <p className="mb-6">
               The terms of this Policy may change and if they do, these changes will be posted on this page and, where appropriate, may be notified to you by email. The new Policy may be displayed on-screen and you may be required to read and accept the changes to continue your use of the Platform.
             </p>
-
-            <h2 className="text-2xl font-bold mt-8 mb-4">CONTACT US</h2>
-            <p className="mb-6">
-              You may contact us at <a href="mailto:info@buildfactory.io" className="text-blue-600 hover:text-blue-800">info@buildfactory.io</a> with any enquiry relating to this Policy, including where you would like more information about any of the topics discussed in this Policy, or if you have an enquiry relating to your personal data.
-            </p>
-
-            <div className="bg-gray-50 p-6 rounded-lg mt-8">
-              <h3 className="text-xl font-semibold mb-4">Office Address</h3>
-              <p>1111B S Governors Ave STE 26649</p>
-              <p>Dover, DE 19904</p>
-              <p className="mt-4">Email: <a href="mailto:support@buildfactory.io" className="text-blue-600 hover:text-blue-800">support@buildfactory.io</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      {/* Footer */}
-      <footer className="py-8 border-t">
-        <div className="container">
-          <div className="flex flex-col md:flex-row justify-center items-center gap-4 text-sm text-muted-foreground">
-            <a href="/about" className="hover:text-foreground transition-colors">
-              About Us
-            </a>
-            <span className="hidden md:inline">•</span>
-            <a href="/privacy" className="hover:text-foreground transition-colors">
-              Privacy Policy
-            </a>
-            <span className="hidden md:inline">•</span>
-            <a href="/terms" className="hover:text-foreground transition-colors">
-              Terms of Service
-            </a>
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-};
-
-export default Privacy;
