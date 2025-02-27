@@ -6,7 +6,6 @@ const AboutUs = () => {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LM0NLRJBDK"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
