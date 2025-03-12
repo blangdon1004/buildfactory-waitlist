@@ -26,12 +26,12 @@ const Index = () => {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white">
               The BuildFactory Marketplace
             </h1>
-            <p className="text-xl text-gray-200">Connecting Top Tier Shops and BIM teams with Capacity to Contractors Needing Capacity </p>
+            <p className="text-xl text-gray-200">The Marketplace Place that Connects Shops with Capacity to those Without Capacity</p>
           </div>
           
           <div className="flex flex-col items-center gap-4">
             <WaitlistForm />
-            <Button variant="secondary" className="bg-blue-600 hover:bg-blue-700 text-white">
+            <Button variant="secondary" className="text-white bg-[#488bfb]">
               <a href="https://discord.gg/wMTm83kS" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 Join our Discord Community
               </a>
@@ -44,7 +44,9 @@ const Index = () => {
       <section className="py-12 md:py-16 container">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Why BuildFactory?</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">Experience the future of construction procurement with our high-quality marketplace</p>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
+            Experience the future of construction procurement with our AI-powered marketplace
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
