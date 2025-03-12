@@ -44,9 +44,7 @@ const Index = () => {
       <section className="py-12 md:py-16 container">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Why BuildFactory?</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Experience the future of construction procurement with our AI-powered marketplace
-          </p>
+          <p className="text-muted-foreground max-w-2xl mx-auto">Experience the future of construction procurement with our high quality marketplace</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
