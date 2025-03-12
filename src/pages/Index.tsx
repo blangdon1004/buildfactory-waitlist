@@ -1,5 +1,7 @@
+
 import { Users, Upload, ShoppingCart, Building, Hammer } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import WaitlistForm from "@/components/WaitlistForm";
 import FeatureCard from "@/components/FeatureCard";
 const Index = () => {
@@ -9,7 +11,8 @@ const Index = () => {
         <div className="container h-full flex items-center justify-between">
           <img src="/lovable-uploads/2ce219f4-ccff-4e6b-ad09-3454e4dff9b7.png" alt="BuildFactory Logo" className="h-24 w-auto" />
           <div className="flex items-center gap-6">
-            <a href="/about" className="text-gray-600 hover:text-gray-900">About Us</a>
+            <Link to="/blog" className="text-gray-600 hover:text-gray-900">Blog</Link>
+            <Link to="/about" className="text-gray-600 hover:text-gray-900">About Us</Link>
           </div>
         </div>
       </header>
@@ -72,17 +75,21 @@ const Index = () => {
       <footer className="py-8 border-t">
         <div className="container">
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 text-sm text-muted-foreground">
-            <a href="/about" className="hover:text-foreground transition-colors">
+            <Link to="/blog" className="hover:text-foreground transition-colors">
+              Blog
+            </Link>
+            <span className="hidden md:inline">•</span>
+            <Link to="/about" className="hover:text-foreground transition-colors">
               About Us
-            </a>
+            </Link>
             <span className="hidden md:inline">•</span>
-            <a href="/privacy" className="hover:text-foreground transition-colors">
+            <Link to="/privacy" className="hover:text-foreground transition-colors">
               Privacy Policy
-            </a>
+            </Link>
             <span className="hidden md:inline">•</span>
-            <a href="/terms" className="hover:text-foreground transition-colors">
+            <Link to="/terms" className="hover:text-foreground transition-colors">
               Terms of Service
-            </a>
+            </Link>
             <span className="hidden md:inline">•</span>
             <a href="https://www.linkedin.com/company/buildfactorymarketplace/about/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors flex items-center" aria-label="LinkedIn">
               <img src="/lovable-uploads/f232cba2-e0b8-45cc-a25b-ae2bcd58b40c.png" alt="LinkedIn" className="w-5 h-5" />
