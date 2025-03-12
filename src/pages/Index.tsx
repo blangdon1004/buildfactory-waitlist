@@ -1,20 +1,13 @@
-
 import { Users, Upload, ShoppingCart, Building, Hammer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import WaitlistForm from "@/components/WaitlistForm";
 import FeatureCard from "@/components/FeatureCard";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Header with Logo */}
       <header className="fixed top-0 left-0 right-0 h-16 bg-white shadow-sm z-50">
         <div className="container h-full flex items-center justify-between">
-          <img 
-            src="/lovable-uploads/2ce219f4-ccff-4e6b-ad09-3454e4dff9b7.png" 
-            alt="BuildFactory Logo" 
-            className="h-24 w-auto"
-          />
+          <img src="/lovable-uploads/2ce219f4-ccff-4e6b-ad09-3454e4dff9b7.png" alt="BuildFactory Logo" className="h-24 w-auto" />
           <div className="flex items-center gap-6">
             <a href="/about" className="text-gray-600 hover:text-gray-900">About Us</a>
           </div>
@@ -25,11 +18,7 @@ const Index = () => {
       <section className="relative h-[90vh] flex items-center justify-center text-center px-4 mt-16">
         <div className="absolute inset-0 -z-10">
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
-          <img
-            src="/lovable-uploads/03cfef6b-ae75-41ac-a15c-bc79147494de.png"
-            alt="Manufacturing Facility"
-            className="w-full h-full object-cover object-center"
-          />
+          <img src="/lovable-uploads/03cfef6b-ae75-41ac-a15c-bc79147494de.png" alt="Manufacturing Facility" className="w-full h-full object-cover object-center" />
         </div>
         
         <div className="space-y-8 max-w-4xl mx-auto opacity-100 transition-opacity duration-500">
@@ -37,20 +26,13 @@ const Index = () => {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white">
               The BuildFactory Marketplace
             </h1>
-            <p className="text-xl text-gray-200">
-              Buy from the world's first truly open, AI-driven construction marketplace
-            </p>
+            <p className="text-xl text-gray-200">The Marketplace Place that Connects Shops with Capacity to those Without Capacity</p>
           </div>
           
           <div className="flex flex-col items-center gap-4">
             <WaitlistForm />
-            <Button variant="secondary" className="bg-blue-600 hover:bg-blue-700 text-white">
-              <a
-                href="https://discord.gg/wMTm83kS"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2"
-              >
+            <Button variant="secondary" className="text-white bg-[#488bfb]">
+              <a href="https://discord.gg/wMTm83kS" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 Join our Discord Community
               </a>
             </Button>
@@ -68,26 +50,10 @@ const Index = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <FeatureCard
-            icon={Users}
-            title="Premium Suppliers"
-            description="Access top-tier BIM teams and Fabricators"
-          />
-          <FeatureCard
-            icon={ShoppingCart}
-            title="Product Catalog"
-            description="Browse and purchase pre-engineered construction solutions"
-          />
-          <FeatureCard
-            icon={Upload}
-            title="Custom Quotes"
-            description="Upload your .DWG, or .RVT, and your specifications for a quote"
-          />
-          <FeatureCard
-            icon={Hammer}
-            title="Premium Hardware"
-            description="Buy & Sell New & Used Off-Site Hardware, Tools, and Machinery"
-          />
+          <FeatureCard icon={Users} title="Premium Suppliers" description="Access top-tier BIM teams and Fabricators" />
+          <FeatureCard icon={ShoppingCart} title="Product Catalog" description="Browse and purchase pre-engineered construction solutions" />
+          <FeatureCard icon={Upload} title="Custom Quotes" description="Upload your .DWG, or .RVT, and your specifications for a quote" />
+          <FeatureCard icon={Hammer} title="Premium Hardware" description="Buy & Sell New & Used Off-Site Hardware, Tools, and Machinery" />
         </div>
       </section>
 
@@ -120,25 +86,13 @@ const Index = () => {
               Terms of Service
             </a>
             <span className="hidden md:inline">•</span>
-            <a 
-              href="https://www.linkedin.com/company/buildfactorymarketplace/about/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-foreground transition-colors flex items-center"
-              aria-label="LinkedIn"
-            >
-              <img 
-                src="/lovable-uploads/f232cba2-e0b8-45cc-a25b-ae2bcd58b40c.png" 
-                alt="LinkedIn" 
-                className="w-5 h-5"
-              />
+            <a href="https://www.linkedin.com/company/buildfactorymarketplace/about/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors flex items-center" aria-label="LinkedIn">
+              <img src="/lovable-uploads/f232cba2-e0b8-45cc-a25b-ae2bcd58b40c.png" alt="LinkedIn" className="w-5 h-5" />
               <span className="sr-only">LinkedIn</span>
             </a>
           </div>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
