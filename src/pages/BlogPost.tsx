@@ -12,8 +12,12 @@ const BlogPost = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // Try to get posts from localStorage first, for the admin demo
+    const storedPosts = localStorage.getItem("blogPosts");
+    const posts = storedPosts ? JSON.parse(storedPosts) : blogPosts;
+    
     // Find the post with the matching slug
-    const foundPost = blogPosts.find((p) => p.slug === slug);
+    const foundPost = posts.find((p) => p.slug === slug);
     setPost(foundPost);
     setLoading(false);
   }, [slug]);

@@ -1,5 +1,5 @@
 
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Settings } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import BlogHeader from "@/components/blog/BlogHeader";
@@ -7,6 +7,10 @@ import BlogCard from "@/components/blog/BlogCard";
 import { blogPosts } from "@/data/blogPosts";
 
 const Blog = () => {
+  // Try to get posts from localStorage first, for the admin demo
+  const storedPosts = localStorage.getItem("blogPosts");
+  const posts = storedPosts ? JSON.parse(storedPosts) : blogPosts;
+
   return (
     <div className="min-h-screen">
       {/* Header with Logo */}
@@ -20,6 +24,13 @@ const Blog = () => {
             <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed">
               The latest news, updates, and insights from the BuildFactory team
             </p>
+            <div className="flex gap-2">
+              <Button asChild variant="outline" size="sm">
+                <Link to="/blog/admin" className="flex items-center gap-2">
+                  <Settings className="h-4 w-4" /> Manage Blog
+                </Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
@@ -27,12 +38,12 @@ const Blog = () => {
       {/* Blog Posts */}
       <section className="py-12 md:py-16 container">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {blogPosts.map((post, index) => (
+          {posts.map((post, index) => (
             <BlogCard key={index} post={post} />
           ))}
         </div>
         
-        {blogPosts.length === 0 && (
+        {posts.length === 0 && (
           <div className="text-center py-12">
             <h3 className="text-xl font-semibold mb-4">No blog posts yet</h3>
             <p className="text-muted-foreground mb-6">Check back soon for updates!</p>
