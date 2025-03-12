@@ -26,7 +26,7 @@ const Index = () => {
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white">
               The BuildFactory Marketplace
             </h1>
-            <p className="text-xl text-gray-200">The Marketplace Place that Connects Shops with Capacity to those Without Capacity</p>
+            <p className="text-xl text-gray-200">Connecting Top Tier Shops and BIM teams with Capacity to Contractors Needing Capacity </p>
           </div>
           
           <div className="flex flex-col items-center gap-4">
